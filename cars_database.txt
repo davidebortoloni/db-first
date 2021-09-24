@@ -1,0 +1,15 @@
+CARS
+
+id - INT [PRIMARY_KEY, NOT_NULL, UNIQUE, AUTO_INCREMENT];
+brand - VARCHAR(30) [NOT_NULL];
+model - VARCHAR(30) [NOT_NULL];
+photo - VARCHAR [NOT_NULL];
+price - MEDIUMINT [NOT_NULL, UNSIGNED];
+type - CHAR(5) [NOT_NULL];
+frame_number - CHAR(17) [NOT_NULL, UNIQUE];
+horsepower - SMALLINT [NOT_NULL, UNSIGNED];
+inches_wheels - TINYINT [NOT_NULL, UNSIGNED];
+registration_year - YEAR [NOT_NULL];
+seats - TINYINT [NOT_NULL, UNSIGNED];
+past_owners - TINYINT [NOT_NULL, UNSIGNED];
+sold - BOOL [NOT_NULL, DEFAULT(0)];
